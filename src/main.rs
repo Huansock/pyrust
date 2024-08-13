@@ -1,4 +1,5 @@
 fn main() {
-    const PI:f64=3.14;
-    println!("pi ={}",PI);
+    let mul = |x,y| -> i32  {x*y};
+    let result = mul(3,4);
+    println!("{result}");
 }
