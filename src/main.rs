@@ -1,5 +1,9 @@
 fn main() {
-    let mul = |x,y| -> i32  {x*y};
-    let result = mul(3,4);
-    println!("{result}");
+    let mut x = 0;
+    loop {
+        x+=1;
+        if x == 5 {
+            break;
+        }
+        println!("{x}")}
 }
