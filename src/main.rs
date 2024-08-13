@@ -1,9 +1,8 @@
 fn main() {
-    let mut x = 0;
-    loop {
-        x+=1;
-        if x == 5 {
-            break;
-        }
-        println!("{x}")}
+    let name = "woo";
+    match name {
+        "yang" => println!("hi yang"),
+        "woo" => println!("hi woo"),
+        _ => println!("you don't have name?")
+    }
 }
